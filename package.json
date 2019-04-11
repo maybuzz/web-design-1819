@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/maybuzz/web-design-1819#readme",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
+  },
+  "devDependencies": {}
 }
