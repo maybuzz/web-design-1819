@@ -11,7 +11,7 @@ Exclusive designed website that shows all `real-time web @cmda-minor-web` assign
 - [Features](#Features)
 - [Concept](#Concept)
   - [Iterations](#Iterations)
-- [Marijn](#Marijn)
+- [Meet Marijn](#Meet-Marijn)
   - [User scenario](#User-scenario)
 - [Exclusive design](#Exclusive-design)
   - [1 Study situation](#1-Study-situation)
@@ -46,14 +46,14 @@ To install this project you'll have to fork this repository and open your termin
 ### Iterations
 
 
-## Marijn
+## Meet Marijn
 Marijn Meijles is a software architect, father, and wheelchair-aficionado with a motor impairment. Marijn doesn't think he's really disabled, even though he's in a wheelchair and has a hard time communicating.
 
 ### User scenario
 Marijn Meijles is a software architect, father, and "wheelchair-aficionado" with a motor impairment. Precise mouse-movement and keypresses are difficult for him, so Marijn relies on his keyboard for navigation. Marijn wants to be able to view and rate our projects quick and easy. He needs to be able to test the project and quickly go back to the overview page. He also needs to know who designed the project so he can give that person feedback. Key events will help Marijn navigate through the pages. After testing a project, Marijn will be able to choose from different sentences to set the mood for the feedback round. These sentences are given, but can be personalized.
 
 ## Exclusive design
-Inclusive design was created so designers would have guidelines to follow to make sure their designs would -theoretically- include everyone (even people with disabilities). The inclusive design principles are `consider all contexts`, `be consistent`, `prioritize content` and `add value`. Of course this doesn't work that way, disabled people we're still excluded.
+[Inclusive design](https://inclusivedesignprinciples.org/nl/) was created so designers would have guidelines to follow to make sure their designs would -theoretically- include everyone (even people with disabilities). The inclusive design principles are `consider all contexts`, `be consistent`, `prioritize content` and `add value`. Of course this doesn't work that way, disabled people we're still excluded.
 
 For this course we'll be following the exclusive design guidelines. These are actually the opposite of the inclusive design principles.
 
@@ -96,14 +96,15 @@ To top the nonsense box I will add a wheelchair animation somewhere.
   - [x] Add nonsense
 
 ## Resources
+- [Marijns twitter](https://twitter.com/marijnm)
+- [Marijns medium account](https://medium.com/@marijnmeijles)
 - [KeyboardEvents MDN](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
 - [KeyboardEvent value css-tricks](https://css-tricks.com/snippets/javascript/javascript-keycodes/)
-- [Marijns medium account](https://medium.com/@marijnmeijles)
 - [About `user scenario`](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/)
 - [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/)
 
 ## Credits
-Marijn Meijles
+[Marijn Meijles](https://github.com/marijnm)
 
 ## License
 [MIT](LICENSE) © [Luna May Johansson](https://github.com/maybuzz)
