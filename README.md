@@ -1,4 +1,4 @@
-# Real-Time Web @cmda-minor-web · 2018-2019
+# Real-Time Web
 
 ## Summary
 Exclusive designed website that shows all `real-time web @cmda-minor-web` assignments made for Marijn Meijles. This website is fully operable by keyboard.
@@ -41,10 +41,28 @@ To install this project you'll have to fork this repository and open your termin
 - [x] ...
 
 ## Concept
+The idea of this project is to create something for Marijn that helps him give us feedback on our projects. I will collect all the projects made for Marijn and show them in a grid-layout. By adding key events Marijn will be able to navigate through the website using his keyboard, not his mouse.
 
+The main goals in this project are `exclusive design`, this means we're creating something specifically for Marijn, and `accessibility` due to his disability. Marijn also has a difficulty articulating. My app can help him with that.
+
+The interface I'm creating will help Marijn navigate through our projects using his keyboard and his sticky keys. Marijn will test our applications and give us feedback on our concepts and designs. Because our solutions have to fit Marijn perfectly, we'll have to listen very carefully to his feedback. With my app this feedback part will hopefully go smoothly, because I want to help Marijn formulate sentences he can play out loud. This way we know what way the feedback is headed. For example, he can choose `good`, `meh` of `bad` and play the sentence out loud. Further feedback can be given by himself on the spot, but this will lead the conversation and avoid misunderstanding each other.
 
 ### Iterations
+#### Version 1
+- `scrollable` interface
+- rating system -> yes or no good -> change border color
+- `visited` feedback (shows if project is visited or not) -> shadow overlay
+- skip to last/skip to first -> use sticky keys to fast forward of backward, instead of one-by-one
 
+#### Version 2
+- `zoomable` interface
+- rating system -> choose from sentences -> change background-color
+- `visited` feedback -> opacity
+
+#### Version 3
+- `swipe-able` interface
+- rating system -> personalized sentences -> change color and order
+- `visited` feedback -> change order
 
 ## Meet Marijn
 Marijn Meijles is a software architect, father, and wheelchair-aficionado with a motor impairment. Marijn doesn't think he's really disabled, even though he's in a wheelchair and has a hard time communicating.
@@ -68,7 +86,7 @@ Marijn is unable to use his mouse or trackpad. Precise movements are difficult f
 #### 3. Prioritize (user) identity
 I think Marijn is an overall positive person. He doesn't think he's really disabled, so I don't want to treat him like he is. I intend to make something, specifically for him, but not emphasize his disability. I looked at Marijns social media accounts (Twitter and Facebook) and saw him "joking" about riding his wheelchair and joking in general. I want to use this humor and positivity in my website to make him feel comfortable and accepted.
 
-![Marijn tweets](/img/tweets.png)
+![Marijns tweets](/img/tweets-marijn.png)
 
 #### 4. Add nonsense  
 I want to help Marijn communicate his feedback using "funny" sentences. For the prototype I will write the sentences myself, but eventually I want him to be able to edit the sentences. The idea is for Marijn to select the sentence he wants to play the audio. I also want to add audio feedback to the correct keypress, this way Marijn will know if he pressed the right key.
@@ -80,14 +98,17 @@ To top the nonsense box I will add a wheelchair animation somewhere.
 ## To-do
 - [ ] Meet Marijn
 - [ ] Concept
+  - [x] Explained
   - [ ] Sketches
-  - [ ] Text
-- [ ] Rapid prototype
+- [ ] Prototype iterations
+  - [ ] Version 1
+  - [ ] Version 2
+  - [ ] Version 3
 - [ ] Usability tests
-  - [x] Test week 1
-  - [ ] Test week 2
-  - [ ] Test week 3
-- [ ] User scenario
+  - [x] Week 1
+  - [ ] Week 2
+  - [ ] Week 3
+- [x] User scenario
 - [ ] Define use of principles
 - [x] Define use of exclusive design principles
   - [x] Study situation
