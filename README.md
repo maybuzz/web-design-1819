@@ -1,7 +1,7 @@
-# Real-Time Web
+# Web-design
 
 ## Summary
-Exclusive designed website that shows all `real-time web @cmda-minor-web` assignments made for Marijn Meijles. This website is fully operable by keyboard.
+Exclusive designed website that shows all `web-design @cmda-minor-web` assignments made for Marijn Meijles. This website is fully operable by keyboard.
 
 ![...](/img/...png)
 
