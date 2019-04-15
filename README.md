@@ -1,58 +1,76 @@
-# Web Design @cmda-minor-web 1819
-//Werken met en voor echte mensen.
+# Real-Time Web @cmda-minor-web · 2018-2019
 
-In dit vak gaan we dingen ontwerpen voor echte mensen. 
+## Summary
 
-Je bent ingedeeld in een groep. Bij elke groep horen een paar opdrachten. Die mag je zelf kiezen. 
+...
 
-## Maandag
-Op maandag in de eerste week kies je een van de volgende kleine opdrachten om mee op gang te komen.
+![...](/img/...png)
 
-Voor het maken van deze opdrachtjes maak je gebruik van de *Exclusive Design Principles:*
+## Table of contents
 
-- Study Situation
-- Ignore Conventions
-- Prioritise Identity
-- Add Nonsense
+- [Live demo](#Live-demo)
+- [Install](#Install)
+- [Features](#Features)
+- [Marijn](#Marijn)
+- [Concept](#Concept)
+- [Exclusive design](#Exclusive-design)
+  - [1 Study situation](#1-Study-situation)
+  - [2 Ignore conventions](#2-Ignore-conventions)
+  - [3 Prioritize identity](#3-Prioritize-identity)
+  - [4 Add nonsense](#4-Add-nonsense)
+- [Principles](#Principles)
+- [To-do](#To-do)
+- [Resources](#Resources)
 
-### Marie
+## Live demo
 
-Marie is Doof (met een hoofdletten inderdaad, dat betekent dat ze zichzelf als Doof identificeert, wat simpelgezegd betekent dat haar eerste taal Nederlandse Gebarentaal is). Je zult begrijpen dat Marie moeite heeft met dingen waar geluid een grote rol speelt.
+[Click here](...) to see my live demo.
 
-<details>
-<summary>Hoe werkt een podcast voor Marie?</summary>
-<p>In een transcriptie gaat natuurlijk nogal wat nuance verloren. Maak een oplossing die minimaal net zo prettig is voor iemand die niet kan luisteren als voor iemand die wel kan luisteren. 
-</details>
+## Install
 
-<details>
-<summary>Hoe werken closed captions voor Marie?</summary>
-<p>Voor Marie gaat er enorm veel nuance verloren tijdens het kijken naar een film of een documentaire. Bij veel films worden closed captions aangeboden, maar die zijn zo neutraal als maar kan. Hoe zou je closed captions 
-</details>
+To install this project you'll have to fork this repository and open your terminal
 
-### Larissa
+```bash
+  # insert your username to this link
+  # put this in your terminal to clone the repo
+  git clone https://github.com/your-user-name/web-design-1819/
 
-Larissa is blind. Ze maakt gebruik van een brailleregel, en van een screenreader. Je snapt dat heel veel van de gangbare design patterns niet optimaal werken voor haar omdat ze 100% vanuit een visueel oogpunt ontworpen zijn.
+  # run the following code to build the app
+  npm start
+```
 
-<details>
-<summary>Hoe zou een navigatie voor Larissa kunnen werken?</summary>
-<p>Tijdens het introductiecollege heb je een filmpje gezien van een niet-getrainde screenreadergebruiker die een navigatiemenu gebruikt. Dat was niet optimaal. Het menu helemaal onderaan de pagina zetten is weer onhandig voor als je dat wel nodig hebt. Stel nou dat *iedereen* blind was en een screenreader gebruikte, wat zou dan het normale navigatie-pattern zijn?
-</details>
+## Features
 
-<details>
-<summary>Ontwerp grappige, geanimeerde illustraties.</summary>
-<p>Hannes Wallrafen maakt <a href="http://www.geluidinzicht.nl/geluidsprojecten/">audiocollages</a>. Deze wil hij graag op een nieuwe website zetten. Hier wil hij grappige, korte geanimeerde illustraties bij hebben. Ontwerp bij één audiocollage één geanimeerde illustratie <em>die zowel voor Larissa, als voor jezelf grappig is</em>.
-</details>
 
-### Marijn
+## Marijn
 
-Marijn is motorisch gestoord. Hij gebruikt zijn computer dus anders dan wij. Hij heeft veel moeite met fijne motoriek. Hij gebruikt zijn toetsenbord om te navigeren, en in de Accessibility settings van zijn Mac heeft hij Sticky Keys aan staan.
 
-<details>
-<summary>Ontwerp een date picker voor Marijn</summary>
-<p>. Hij reist veel met de trein, en hij moet van tevoren aangeven welke trein hij wil nemen zodat er iemand is om hem te helpen met zijn rolstoel. Date-pickers zijn over het algemeen priegelig, en niet ontworpen voor iemand die afhankelijk is van zijn toetsenbord.
-</details>
+## Concept
 
-<details>
-<summary>Ontwerp een date picker voor Marijn</summary>
-<p>. Hij reist veel met de trein, en hij moet van tevoren aangeven welke trein hij wil nemen zodat er iemand is om hem te helpen met zijn rolstoel. Date-pickers zijn over het algemeen priegelig, en niet ontworpen voor iemand die afhankelijk is van zijn toetsenbord.
-</details>
+
+## Principles
+
+
+## Exclusive design
+
+
+#### 1. Study situation
+
+#### 2. Ignore conventions
+
+#### 3. Prioritize (user) identity
+
+#### 4. Add nonsense  
+
+
+## To-do
+
+- [x] ...
+
+## Resources
+
+- [...](...)
+
+## License
+
+[MIT](LICENSE) © [Luna May Johansson](https://github.com/maybuzz)

@@ -1,0 +1,122 @@
+/* colors */
+:root {
+  --color-title: cornflowerblue;
+  --color-title-light: violet;
+  --color-focus: lightblue;
+  --color-btn: violet;
+  --color-btn-focus: slateblue;
+  --color-btn-text: #fff;
+  --color-backgr: lightgreen;
+  --color-light: #fff;
+}
+
+/* general */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-light);
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+main {
+  height: 100vh;
+  display: table;
+  margin: 0 auto;
+}
+
+/* form & containers */
+.form {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+}
+
+/* buttons */
+.btn {
+  padding: .167rem .5rem;
+  margin-top: .2rem
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: var(--color-btn);
+  color: #fff;
+}
+
+.btn:focus {
+  background-color: var(--color-btn-focus);
+  color: var(--color-btn-text);
+  border: none;
+}
+
+/* form elements */
+.title {
+  font-size: 2.55rem;
+  color: var(--color-title);
+  font-weight: bold;
+  display: block;
+  margin-bottom: .8rem;
+}
+
+.form__select {
+  margin-right: .5rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.form__select:focus {
+  background-color: var(--color-focus);
+}
+
+/* manual */
+.manual {
+  height: auto;
+  width: 35%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.manual__title {
+  margin-bottom: 1rem;
+  color: var(--color-btn);
+}
+
+.manual__list {
+  margin-left: 1.5rem;
+  list-style: url(img/pointer2.svg);
+  list-style-type: square;
+  margin-right: 2rem;
+}
+
+.manual__list__item {
+  margin-bottom: 1rem;
+}
+
+/* input {
+  height: 2rem;
+  width: 11.5rem;
+  padding: 0 1rem;
+  margin: 1rem auto;
+  display: inline;
+  border: none;
+  color: tomato;
+}
+
+img {
+  height: 2.25rem;
+  margin-top: .8rem;
+  margin-left: .25rem;
+} */
