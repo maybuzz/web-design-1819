@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 var callback = function() {
   document.addEventListener('click', () => {
-    console.log("click");
+    console.log("click")
   })
 }
 
@@ -18,16 +18,14 @@ function keyHandler(e) {
 		repeat: e.repeat
 	}
 
-	if (keypress.key === "d") {
-    console.log("dit is voor dag");
+	if (keypress.key === "w" || keypress.key === "e") {
+    console.log("dit is GOED")
     callback()
-	} else if (keypress.key === "m") {
-    console.log("dit is voor maand");
-  } else if (keypress.key === "y" || keypress.key === "j") {
-    console.log("dit is voor jaar");
+	} else if (keypress.key === "x" || keypress.key === "c") {
+    console.log("dit is NIET GOED")
   } else if (keypress.key === "tab") {
-    console.log("tab");
+    console.log("tab")
   } else {
-    console.log("dit niet ", keypress);
+    console.log("dit niet ", keypress)
   }
 }
