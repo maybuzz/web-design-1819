@@ -3,33 +3,38 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Dashboard</title>
+    <title>Versie 1</title>
   </head>
   <body>
     <header class="header">
-      <h1>welkom v2</h1>
+      <h1>welkom</h1>
     </header>
     <main>
       <div class="container">
-        <a class="detail" href="detail.html">
-          <input id="good1" class="good-check" type="checkbox" name="good" value="good" hidden>
-          <input id="nogood1" class="nogood-check" type="checkbox" name="nogood" value="no-good" hidden>
-          <div class="block">
-          	<div class="block__img">
-              <img class="img" src="img/placeholder.png" alt="">
-            </div>
+
+          <div id="block" class="block">
+            <a class="detail" href="detail.html">
+            	<div class="block__img">
+                <img class="img" src="img/placeholder.png" alt="">
+              </div>
+            </a>
+
             <div class="block__text">
               <h2 class="title">Book a flight</h2>
               <p class="designer">door Monikaas</p>
             </div>
+
             <div class="block__btns">
-              <label class="btn btn-good" for="good1" type="button" name="good">Good</label>
-              <label class="btn btn-no" for="nogood1" type="button" name="no-good">No good</label>
+
+              <p class="goed">W = <button class="btn btn-good" type="button" name="good" tabindex="0">Good</button></p>
+
+              <p class="niet">F = <button id="no-good1" class="btn btn-no" for="nogood1" type="button" name="no-good" tabindex="0">No good</button></p>
+
             </div>
           </div>
-        </a>
       </div>
-      <div class="container">
+
+      <!-- <div class="container">
         <a class="detail" href="detail.html">
           <input id="good2" class="good-check" type="checkbox" name="good" value="good" hidden>
           <input id="nogood2" class="nogood-check" type="checkbox" name="nogood" value="no-good" hidden>
@@ -42,8 +47,8 @@
               <p class="designer">door Nathan</p>
             </div>
             <div class="block__btns">
-              <label class="btn btn-good" for="good2" type="button" name="good">Good</label>
-              <label class="btn btn-no" for="nogood2" type="button" name="no-good">No good</label>
+              <label class="btn btn-good" for="good2" type="button" name="good" tabindex="0">Good</label>
+              <label class="btn btn-no" for="nogood2" type="button" name="no-good" tabindex="0">No good</label>
             </div>
           </div>
         </a>
@@ -61,12 +66,12 @@
               <p class="designer">door Folkert-Jan</p>
             </div>
             <div class="block__btns">
-              <label class="btn btn-good" for="good3" type="button" name="good">Good</label>
-              <label class="btn btn-no" for="nogood3" type="button" name="no-good">No good</label>
+              <label class="btn btn-good" for="good3" type="button" name="good" tabindex="0">Good</label>
+              <label class="btn btn-no" for="nogood3" type="button" name="no-good" tabindex="0">No good</label>
             </div>
           </div>
         </a>
-      </div>
+      </div> -->
     </main>
     <script src="js/main.js"></script>
   </body>

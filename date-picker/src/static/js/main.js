@@ -18,16 +18,20 @@ function keyHandler(e) {
 		repeat: e.repeat
 	}
 
-	if (keypress.key === "d") {
-    console.log("dit is voor dag");
-    callback()
-	} else if (keypress.key === "m") {
-    console.log("dit is voor maand");
-  } else if (keypress.key === "y" || keypress.key === "j") {
-    console.log("dit is voor jaar");
-  } else if (keypress.key === "tab") {
-    console.log("tab");
-  } else {
-    console.log("dit niet ", keypress);
-  }
-}
+	switch(keypress.key) {
+			case "d":
+			 document.getElementById('block').classList.add('block-good');
+					break;
+			case "v":
+				document.getElementById('block').classList.remove('block-good');
+				 document.getElementById('block').classList.add('block-nogood');
+					break;
+			case "y":
+				document.getElementById('block').classList.remove('block-good');
+				 document.getElementById('block').classList.remove('block-nogood');
+				 document.getElementById('block').classList.add('block-meh');
+					break;
+			case "x":
+				 document.getElementById('block').classList.remove("block-good", "block-nogood", "block-meh");
+					break;
+	}
