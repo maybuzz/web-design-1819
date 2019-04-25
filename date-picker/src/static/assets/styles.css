@@ -33,6 +33,10 @@ main {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 2.55rem;
+}
+
 /* form & containers */
 .form {
   display: table-cell;
@@ -44,40 +48,76 @@ main {
   justify-content: center;
 }
 
+.radio {
+  margin-top: 3rem;
+}
+
+.label {
+  border: solid 2px #ccc;
+  padding: 1rem 1.5rem;
+  margin: 0;
+}
+
+.label:hover, .label:focus, .Switch--selected {
+  border-color: cornflowerblue;
+  background-color: #cccfff;
+}
+
+#one, #two, #three, #four {
+  position: absolute;
+  opacity: ;
+  width: 1px;
+  height: 1px;
+}
+
+#one:checked ~ .label-one, #two:checked ~ .label-two, #three:checked ~ .label-three, #four:checked ~ .label-four {
+  border-color: cornflowerblue;
+  background-color: #cccfff;
+}
+
 /* buttons */
 .btn {
   padding: .167rem .5rem;
-  margin-top: .2rem
+  margin-top: .3rem
   border: none;
-  font-size: 1rem;
+  height: 3rem;
+  font-size: 1.15rem;
   border-radius: 5px;
   background-color: var(--color-btn);
   color: #fff;
 }
 
-.btn:focus {
+.btn:hover, .btn:focus {
   background-color: var(--color-btn-focus);
   color: var(--color-btn-text);
-  border: none;
 }
 
 /* form elements */
 .title {
-  font-size: 2.55rem;
   color: var(--color-title);
   font-weight: bold;
   display: block;
-  margin-bottom: .8rem;
+  margin-bottom: 1.5rem;
 }
 
 .form__select {
   margin-right: 1.5rem;
   height: 3rem;
-  font-size: 1rem;
+  font-size: 1.15rem;
+  border: solid 2px #ccc;
 }
 
-.form__select:focus {
-  background-color: var(--color-focus);
+.form__select:hover, .form__select:focus {
+  border-color: cornflowerblue;
+  background-color: #cccfff;
+}
+
+.result {
+  margin-top: 1.5rem;
+}
+
+span {
+  font-size: 1.5rem;
 }
 
 /* manual */
@@ -95,6 +135,14 @@ main {
 }
 
 .manual__list {
+  margin-left: 1.5rem;
+  list-style: url(img/pointer2.svg);
+  list-style-type: square;
+  margin-right: 2rem;
+}
+
+.manual__list2, .manual__list3 {
+  margin-top: 2rem;
   margin-left: 1.5rem;
   list-style: url(img/pointer2.svg);
   list-style-type: square;

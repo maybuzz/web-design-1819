@@ -8,22 +8,31 @@ const app = express()
 
 app
   .use(express.static(path.join(__dirname, 'static')))
-  .use(bodyParser.urlencoded({ extended: true }))
+  .use(bodyParser.urlencoded({ extended: false }))
   .set('view engine', 'ejs')
   .set('views', path.join(__dirname, 'views'))
   .get('/', index)
+  .post('/', getDate)
+  .get('/color', color)
   .post('/', pickedDate)
   .listen(process.env.PORT || 2000)
 
 function index (req, res) {
 
+  res.render('main')
+}
+
+function getDate(req, res) {
+  
   const day = req.body.day
   const month = req.body.month
   const year = req.body.year
 
-  console.log("current date: ", day)
+  console.log(req.body);
+}
 
-  res.render('main')
+function color (req, res) {
+  res.render('color')
 }
 
 function pickedDate (req, res) {
