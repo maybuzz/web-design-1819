@@ -71,22 +71,22 @@ function keyHandler(e) {
 				  year.focus()
 					break;
 			case "v":
-          sound.play();
+          sound1.play();
           one.focus()
   				one.click()
 					break;
 			case "b":
-          sound.play();
+          sound2.play();
           two.focus()
   				two.click()
 					break;
 			case "n":
-          sound.play();
+          sound3.play();
           three.focus()
   				three.click()
 					break;
 			case "m":
-          sound.play();
+          sound4.play();
           four.focus()
   				four.click()
 					break;
