@@ -1,18 +1,20 @@
 # Web-design
 
 ## Summary
-Exclusive designed website that shows all `web-design @cmda-minor-web` assignments made for Marijn Meijles. This website is fully operable by keyboard.
+Exclusive designed date-picker made for Marijn Meijles.
 
-![...](/img/...png)
+![date picker v2](/img/final.png)
 
 ## Table of contents
 - [Live demo](#Live-demo)
 - [Install](#Install)
 - [Features](#Features)
 - [Concept](#Concept)
-  - [Iterations](#Iterations)
 - [Meet Marijn](#Meet-Marijn)
-  - [User scenario](#User-scenario)
+  - [Assumptions](#Assumptions)
+  - [Conclusion](#Conclusion)
+- [Test 1](#Test-1)
+- [Test 2](#Test-2)
 - [Exclusive design](#Exclusive-design)
   - [1 Study situation](#1-Study-situation)
   - [2 Ignore conventions](#2-Ignore-conventions)
@@ -37,38 +39,58 @@ To install this project you'll have to fork this repository and open your termin
   npm start
 ```
 
-## Features
-- [x] ...
-
 ## Concept
-The idea of this project is to create something for Marijn that helps him give us feedback on our projects. I will collect all the projects made for Marijn and show them in a grid-layout. By adding key events Marijn will be able to navigate through the website using his keyboard, not his mouse.
+This date-picker was specifically made for Marijn. Initially I wanted to create something that would help Marijn give us feedback on our projects. I let this idea go due to its complexity. I came up with a form (using a date picker and radio buttons) that would cost his minimal effort to complete.
 
-The main goals in this project are `exclusive design`, this means we're creating something specifically for Marijn, and `accessibility` due to his disability. Marijn also has a difficulty articulating. My app can help him with that.
-
-The interface I'm creating will help Marijn navigate through our projects using his keyboard and his sticky keys. Marijn will test our applications and give us feedback on our concepts and designs. Because our solutions have to fit Marijn perfectly, we'll have to listen very carefully to his feedback. With my app this feedback part will hopefully go smoothly, because I want to help Marijn formulate sentences he can play out loud. This way we know what way the feedback is headed. For example, he can choose `good`, `meh` of `bad` and play the sentence out loud. Further feedback can be given by himself on the spot, but this will lead the conversation and avoid misunderstanding each other.
-
-### Iterations
-#### Version 1
-- `scrollable` interface
-- rating system -> yes or no good -> change border color
-- `visited` feedback (shows if project is visited or not) -> shadow overlay
-- skip to last/skip to first -> use sticky keys to fast forward of backward, instead of one-by-one
-
-#### Version 2
-- `zoomable` interface
-- rating system -> choose from sentences -> change background-color
-- `visited` feedback -> opacity
-
-#### Version 3
-- `swipe-able` interface
-- rating system -> personalized sentences -> change color and order
-- `visited` feedback -> change order
+The main goals in this project are `exclusive design`, this means we're creating something specifically for Marijn, and `accessibility` due to his disability.
 
 ## Meet Marijn
 Marijn Meijles is a software architect, father, and wheelchair-aficionado with a motor impairment. Marijn doesn't think he's really disabled, even though he's in a wheelchair and has a hard time communicating.
 
-### User scenario
-Marijn Meijles is a software architect, father, and "wheelchair-aficionado" with a motor impairment. Precise mouse-movement and keypresses are difficult for him, so Marijn relies on his keyboard for navigation. Marijn wants to be able to view and rate our projects quick and easy. He needs to be able to test the project and quickly go back to the overview page. He also needs to know who designed the project so he can give that person feedback. Key events will help Marijn navigate through the pages. After testing a project, Marijn will be able to choose from different sentences to set the mood for the feedback round. These sentences are given, but can be personalized.
+### Assumptions
+After reading some articles about motor impairments I assumed Marijn would have a hard time using his `trackpad`. Precise mouse movements and key presses could be difficult, so I thought he would like to use his `keyboard` and `tab` through the page. I know he uses his left hand, so using the arrow keys could be a bit difficult too. He shouldn't have to move his hand too much.
+
+### Conclusion
+Marijn is a very bubbly guy. He jokes all the time, even about his disability. Marijn doesn't use his keyboard as much as I thought. He also doesn't use the `tab` key. He just uses his trackpad. Because of this I don't want to rely too much on key events, cause this would mean Marijn has to change his ways and I think he's fine the way he is now. Still, there is always room for improvement, so I chose to do both.
+
+## Test 1
+- `scrollable` interface
+- rating system
+- `visited` feedback (shows if project is visited or not) -> shadow overlay
+- key events for navigation and rating
+
+### Conclusion
+This test would have been better if I worked it out some more. I wanted to test my key events, but I was having a hard time getting them right. I also found out that this concept would be a bit difficult to work out right. So I switched concepts.
+
+I still think this test was useful cause I...
+1. Found out this concept wouldn't work the way I wanted it too.
+2. I got to see Marijn operate his computer. This really helped me think of a next concept. I asked him some questions about key events and placement on his keyboard. It was also very useful to watch the other tests.
+
+![concept 1](/img/versions.png)
+
+![schets concept 1](/img/schets.png)
+
+## Test 2
+- date-picker
+- drop downs
+- radio buttons
+- `auto focus`
+- `key events`
+
+### Version 1
+For this test I actually made two versions. I only tested my final one. I started with a simple set of drop downs and a submit button. After observing Marijn I found out he preferred using his trackpad instead of the tab-key. Buttons would have to be big so it's easier for him to click on them. Also, the key events I used in the first version where too far apart.
+
+![date picker v1](/img/first-try.png)
+
+### Version 2
+For this second version I changed the size of the clickable items. I also implemented key events. I chose keys that are close to each other. To make it easier for Marijn to operate the form I implemented a focus state that responds to the change event of the current element. This will shift the focus to the next element when the first element is checked.
+
+This is also the main focus of my concept. A form that shifts focus so Marijn doesn't have to press of click too much buttons to complete the form. I would have liked to have more form elements, but I didn't get to that.
+
+### Conclusion
+I think this test was very successful. If I had made more form elements it would have been better, but everything I made worked perfectly. Marijn liked that the focus shifted to the next form element. Also, my key events were close to each other so Marijn would be able to press them more easily than before.
+
+![date picker v2](/img/final.png)
 
 ## Exclusive design
 [Inclusive design](https://inclusivedesignprinciples.org/nl/) was created so designers would have guidelines to follow to make sure their designs would -theoretically- include everyone (even people with disabilities). The inclusive design principles are `consider all contexts`, `be consistent`, `prioritize content` and `add value`. Of course this doesn't work that way, disabled people we're still excluded.
@@ -76,45 +98,37 @@ Marijn Meijles is a software architect, father, and "wheelchair-aficionado" with
 For this course we'll be following the exclusive design guidelines. These are actually the opposite of the inclusive design principles.
 
 #### 1. Study situation
-Marijn is a developer, so he is used to working with a computer. He has a macbook pro and uses [sticky keys](https://en.wikipedia.org/wiki/Sticky_keys) and tab navigation. He only uses his left hand to control his keyboard.
+Marijn is a developer, so he is used to working with a computer. He has a macbook pro and uses [sticky keys](https://en.wikipedia.org/wiki/Sticky_keys) and  mouse movements. He doesn't use his tab.
+
+He only uses his left hand to control his keyboard. Due to this he prefers keys either on the left- of the right side of the keyboard. This way he doesn't have to switch his hand all the time.  
 
 #### 2. Ignore conventions
 **"The defaults suck"**, therefore I will not be using the default conventions. Usually conventions are used to add accessibility to a page because "people are familiar with the pattern", but this doesn't necessarily mean it's the best solution.
 
-Marijn is unable to use his mouse or trackpad. Precise movements are difficult for Marijn due to his motor impairment. Therefore he relies on his keyboard for navigation. Because Merlijn only uses his left hand, relying on the arrows on the right of the keyboard could be unpleasant for him. Therefore I will use other keys (on the left-side of the keyboard). Also pressing a key one time may be hard for him, so repeating keypresses should not interfere with the usability.
+Usually `input type=date` is used to pick a date. This usually shows a calendar where users can pick a date. In this case I'm using drop downs, because these are easy to operate. Drop downs have multiple keys to operate them (open, switch option, choose one).
 
 #### 3. Prioritize (user) identity
-I think Marijn is an overall positive person. He doesn't think he's really disabled, so I don't want to treat him like he is. I intend to make something, specifically for him, but not emphasize his disability. I looked at Marijns social media accounts (Twitter and Facebook) and saw him "joking" about riding his wheelchair and joking in general. I want to use this humor and positivity in my website to make him feel comfortable and accepted.
+Because I'm designing for Marijn specifically, I used bigger buttons and keys that are next to each other. If I was to work out this form, I would have implemented more form elements. I also would have changed my concept to something more fun.
+
+I looked at Marijns social media accounts (Twitter and Facebook) and saw him "joking" about riding his wheelchair and joking in general. I thought this was something I could use to prioritize user identity and add nonsense.
 
 ![Marijns tweets](/img/tweets-marijn.png)
 
 #### 4. Add nonsense  
-I want to help Marijn communicate his feedback using "funny" sentences. For the prototype I will write the sentences myself, but eventually I want him to be able to edit the sentences. The idea is for Marijn to select the sentence he wants to play the audio. I also want to add audio feedback to the correct keypress, this way Marijn will know if he pressed the right key.
-To top the nonsense box I will add a wheelchair animation somewhere.
-
-## Principles
-
+If I had more time I would have implemented more nonsense. I would have implemented buttons that don't do anything and/or buttons that move away when he tries to click them. Also annoying sounds on form element would have been fun.
 
 ## To-do
-- [ ] Meet Marijn
-- [ ] Concept
-  - [x] Explained
-  - [ ] Sketches
-- [ ] Prototype iterations
-  - [ ] Version 1
-  - [ ] Version 2
-  - [ ] Version 3
-- [ ] Usability tests
-  - [x] Week 1
-  - [ ] Week 2
-  - [ ] Week 3
+- [x] Meet Marijn
+- [x] Prototype iterations
+- [x] Usability tests
 - [x] User scenario
-- [ ] Define use of principles
 - [x] Define use of exclusive design principles
   - [x] Study situation
   - [x] Ignore conventions
   - [x] Prioritize (user) identity
   - [x] Add nonsense
+    - [ ] Onnodige knoppen
+    - [ ] Overbodige geluidjes
 
 ## Resources
 - [Marijns twitter](https://twitter.com/marijnm)
