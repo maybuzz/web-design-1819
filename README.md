@@ -47,6 +47,9 @@ The main goals in this project are `exclusive design`, this means we're creating
 ## Meet Marijn
 Marijn Meijles is a software architect, father, and wheelchair-aficionado with a motor impairment. Marijn doesn't think he's really disabled, even though he's in a wheelchair and has a hard time communicating.
 
+#### User scenario
+A form that will make it easier for Marijn, a person with a motor impairment who only uses his left hand and doesn't use tab to move through the page, to complete a form using as little keys/clicks as possible. 
+
 ### Assumptions
 After reading some articles about motor impairments I assumed Marijn would have a hard time using his `trackpad`. Precise mouse movements and key presses could be difficult, so I thought he would like to use his `keyboard` and `tab` through the page. I know he uses his left hand, so using the arrow keys could be a bit difficult too. He shouldn't have to move his hand too much.
 
