@@ -25,7 +25,7 @@ Exclusive designed date-picker made for Marijn Meijles.
 - [Resources](#Resources)
 
 ## Live demo
-[Click here](...) to see my live demo.
+[Click here](https://pickadatepicker.herokuapp.com/) to see my live demo.
 
 ## Install
 To install this project you'll have to fork this repository and open your terminal
@@ -126,7 +126,7 @@ If I had more time I would have implemented more nonsense. I would have implemen
   - [x] Study situation
   - [x] Ignore conventions
   - [x] Prioritize (user) identity
-  - [x] Add nonsense
+  - [ ] Add nonsense
     - [ ] Onnodige knoppen
     - [ ] Overbodige geluidjes
 
